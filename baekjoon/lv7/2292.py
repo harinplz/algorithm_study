@@ -2,15 +2,14 @@
 # 2292: 벌집
 
 # 220915 풀이
-N = int(input())
-bee_house = 1 
-cnt = 1
+bee_house = int(input())
+room = 1
 
-while N>bee_house: 
-    bee_house += cnt*6
-    cnt+=1
+while bee_house>1:
+    bee_house -= 6*room
+    room += 1
 
-print(cnt)
+print(room)
 
 # # 220906 풀이
 # N = int(input()) # N 입력 받음
