@@ -3,7 +3,8 @@
 🤍 ***알고리즘 공부 기록용*** 🖤
 &nbsp;  
 &nbsp;  
-[![Solved.ac Profile](http://mazassumnida.wtf/api/generate_badge?boj=gmlwls608)](https://solved.ac/gmlwls608)
+[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=gmlwls608)](https://solved.ac/gmlwls608)
+<!-- [![Solved.ac Profile](http://mazassumnida.wtf/api/generate_badge?boj=gmlwls608)](https://solved.ac/gmlwls608) -->
 &nbsp;  
 &nbsp;  
 |공부 사이트|언어|공부 내용|공부 날짜|
