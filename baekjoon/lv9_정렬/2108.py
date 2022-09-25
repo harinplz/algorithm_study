@@ -1,7 +1,29 @@
 # 실버3
 # 2108번: 통계학
 
-# 수정이 필요해보이는 코드라... 내일 수정해야겠음
+# 수정한 코드
+import sys
+from collections import Counter
+N=int(sys.stdin.readline())
+num_list=[]
+for _ in range(N):
+    num_list.append(int(sys.stdin.readline()))
+num_list.sort()
+cnt_dict=Counter(num_list).most_common()
+if N==1:
+    most_frequency = cnt_dict[0][0]
+else:
+    if cnt_dict[0][1] == cnt_dict[1][1]:
+        most_frequency = cnt_dict[1][0]
+    else:
+        most_frequency = cnt_dict[0][0]
+print(round(sum(num_list)/N))
+print(num_list[N//2])
+print(most_frequency)
+print(num_list[-1]-num_list[0])
+
+
+# 수정 전 코드
 import sys
 from collections import Counter
 N=int(input())
