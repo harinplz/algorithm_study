@@ -1,4 +1,4 @@
-# algorithm_study
+# Algorithm-Study
 &nbsp;  
 🤍 ***알고리즘 공부 기록용*** 🖤
 &nbsp;  
