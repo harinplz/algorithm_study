@@ -117,6 +117,7 @@ TreeSet<Integer> set3 = new TreeSet<Arrays.asList(1,2,3));
 <br>
 
 #### 6️⃣ TreeSet 내림차순 정렬
+- TreeSet은 오름차순 정렬이 기본값이다. 
 - TreeSet을 생성할 때 파라미터에 Comparator을 입력하여 임의로 정렬할 수 있다.
 ``` java
 // Comparator 입력하여 임의로 내림차순 정렬한다.
@@ -140,6 +141,23 @@ System.out.println(treeSet.first()); // 출력 결과 : 1
 System.out.println(treeSet.last()); // 출력 결과 : 3
 ```
 
+
+<br>
+
+### Set 출력 방법
+- 향상된 for문을 사용하여 출력한다.
+- 혹은, 객체를 하나씩 반복해서 가져오는 반복자(Iterator)를 사용한다.
+- Iterator의 `hasNext()` 메서드는 가져올 객체가 있으면 true를, 없으면 false를 반환한다.
+- Iterator의 `next()` 메서드는 가져올 객체를 반환한다.
+- HashSet, TreeSet 모두 같은 방법을 사용하여 출력할 수 있다.
+``` java
+HashSet<Integer> set = new HashSet<Integer>(Arrays.asList(1,2,3));
+
+Iterator iter = set.iterator();
+while(iter.hasNext()) {
+  System.out.println(iter.next()); // 출력 결과 : 1 2 3
+}
+```
 
 <br>
 
