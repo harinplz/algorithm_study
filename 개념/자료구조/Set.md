@@ -144,7 +144,7 @@ System.out.println(treeSet.last()); // 출력 결과 : 3
 
 <br>
 
-### Set 출력 방법
+## Set 출력 방법
 - 향상된 for문을 사용하여 출력한다.
 - 혹은, 객체를 하나씩 반복해서 가져오는 반복자(Iterator)를 사용한다.
 - Iterator의 `hasNext()` 메서드는 가져올 객체가 있으면 true를, 없으면 false를 반환한다.
