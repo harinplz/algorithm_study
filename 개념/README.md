@@ -2,6 +2,11 @@
 
 알고리즘 푸는데 필요한 개념 정리하기 📝 
 
+<h2> 자료구조 </h2>
+
+* [Set](https://github.com/harinplz/Algorithm-Study/blob/main/%EA%B0%9C%EB%85%90/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/Set.md)
+
+<br>
 
 <h2> 문자열 </h2>
 
