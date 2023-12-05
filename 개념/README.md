@@ -17,3 +17,4 @@
 <h2> 탐색 </h2>
 
 * [이분탐색(Binary Search)](https://github.com/harinplz/Algorithm-Study/blob/main/%EA%B0%9C%EB%85%90/%ED%83%90%EC%83%89/%EC%9D%B4%EB%B6%84%ED%83%90%EC%83%89.md)
+* [조합(Combination)](https://github.com/harinplz/Algorithm-Study/blob/main/%EA%B0%9C%EB%85%90/%ED%83%90%EC%83%89/%EC%A1%B0%ED%95%A9.md)
