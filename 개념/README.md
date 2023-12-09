@@ -2,6 +2,14 @@
 
 알고리즘 푸는데 필요한 개념 정리하기 📝 
 
+<br>
+
+<h2> 기초 </h2>
+
+* [자료형](https://github.com/harinplz/Algorithm-Study/blob/main/%EA%B0%9C%EB%85%90/%EA%B8%B0%EC%B4%88/%EC%9E%90%EB%A3%8C%ED%98%95.md)
+
+<br>
+
 <h2> 자료구조 </h2>
 
 * [Set](https://github.com/harinplz/Algorithm-Study/blob/main/%EA%B0%9C%EB%85%90/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/Set.md)
