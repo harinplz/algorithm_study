@@ -1,4 +1,4 @@
-## BOJ 골드1 1300 K번째 수
+![image](https://github.com/harinplz/Algorithm-Study/assets/62701446/44d09950-7c00-4328-81a4-d21d28d249e7)## BOJ 골드1 1300 K번째 수
 
 - 풀이 시간 : 블로그 참고 😂
 - 풀이 방법 : 이분탐색
@@ -13,7 +13,6 @@
 <br>
 
 ### 블참 
-[[백준] 1300번 : K번째 수 - JAVA [자바]](https://st-lab.tistory.com/281)
 
 <br>
 
@@ -91,9 +90,29 @@ else {
 
 <br>
 
+### 왜 left를 출력하는가?
+- 이분탐색과 같은 경곗값을 찾는 알고리즘에는 Upper-Bound를 쓸지, Lower-Bound를 써야하는 지 선택해야한다.
+- **Upper-Bound**는 특정 값보다 처음으로 큰 값의 위치를 찾는 것이다. 
+
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbL9VBl%2FbtrUus3uxhi%2FdAjAjIKvm1VpAt4CPgfRtK%2Fimg.png" width="700px"/>
+
+- **Lower-Bound**는 특정 값의 시작 위치를 찾는 것이다.
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcDcl4d%2FbtrUxdRXj9f%2FrEPGYLIYk7pK2bUXOKqWtK%2Fimg.png" width="700px"/>
+
+- K값에 대해 x보다 작은 수가 K값이랑 같은 경우의 수가 여러 개일 가능성이 발생할 수 있다.
+- 그렇기 때문에, 찾고자 하는 값과 같거나 큰 수가 있는 첫 번째 인덱스를 찾는 Lower-Bound 방식을 써야한다. 
+
+<br>
+
 ### 정리 
 - B[k]=x에서 x값을 구하는 문제이다.
 - 이때, B[k] = x는 x보다 작은 값의 개수가 K개라는 것을 의미하고, x를 조절해가며 x보다 작은 값의 개수를 구해 K랑 같은지 확인하면 된다. 
+
+<br>
+
+### 출처
+- [Lower bound & Upper bound 개념 및 구현](https://yoongrammer.tistory.com/105)
+- [[백준] 1300번 : K번째 수 - JAVA [자바]](https://st-lab.tistory.com/281)
 
 <br>
 
