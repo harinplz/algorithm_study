@@ -17,7 +17,8 @@
 
 ### 첫 번째 시도 
 - 처음에는 Olympic 클래스를 생성해서 Comparable 인터페이스를 implements해서 정렬했다.
-- 근데 동점자수를 구하는 데 계속 틀렸다고 나옴. 흠
+- 근데 동점자수를 구하는 데 계속 틀렸다고 나옴. 흠  
+▶️ 해결해서 코드 업데이트함! 진짜 생각해보는 연습이 많이 필요한 듯 ㅠㅠ [코드](https://github.com/harinplz/Algorithm-Study/blob/main/baekjoon/java/%5B1%5D%EC%8B%A4%EB%B2%84/BOJ_%EC%8B%A4%EB%B2%845_8979_%EC%98%AC%EB%A6%BC%ED%94%BD/BOJ_%EC%8B%A4%EB%B2%845_8679_%EC%98%AC%EB%A6%BC%ED%94%BD_2.java)
 
 <br>
 
